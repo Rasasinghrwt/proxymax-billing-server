@@ -1,2 +1,15 @@
 # proxymax-billing-server
 Ok
+{
+  "name": "proxymax-billing-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "razorpay": "^2.9.4"
+  }
+}
